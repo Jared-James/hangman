@@ -5,7 +5,7 @@ class Hangman {
     this.guess = []
     this.status = 'playing'
 }
- get Puzzle() {
+ get puzzle() {
     let puzzle = ''
     this.word.forEach(letter => {
         if (this.guess.includes(letter) || letter === ' ') {
@@ -45,7 +45,8 @@ checkStatus() {
     } else {
         this.status = 'playing'
     }
-    console.log('current status',this.status)
+
+    return this.status
 }
 showStatus() {
     let showStatus = document.getElementById('status')
@@ -58,8 +59,7 @@ showStatus() {
      } else if (this.status === 'failed') {  
          showStatus.textContent = `WRONG,  the word was ${result}`
      }
- 
- 
+
     return showStatus
  }
 }
