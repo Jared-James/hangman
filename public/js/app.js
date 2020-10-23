@@ -1,5 +1,6 @@
 const hangmanGame = document.getElementById('game')
 const hangmanStatus = document.getElementById('status')
+
 let game
 
 
@@ -10,6 +11,7 @@ window.addEventListener('keypress', (e) => {
     })
     
 const render = () => {
+  console.log(game)
     hangmanGame.textContent = game.uzzle  
     hangmanStatus.textContent = game.showStatus().textContent
     
