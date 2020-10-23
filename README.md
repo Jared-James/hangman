@@ -2,7 +2,7 @@
 
 A simple Hangman game
 
-Features random words & unique guesses. Can you guess the word before your gusses run out!
+*Can you guess the word before your gusses run out!*
 
 ## Motivation 
 
