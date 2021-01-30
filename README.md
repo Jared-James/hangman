@@ -1,6 +1,6 @@
 #  Hangman - an old time classsic 
 
-*Can you guess the word before your gusses run out!*
+ 🐇 *Can you guess the word before your gusses run out!* 🌪️
 
 ## 🚀 Motivation 🚀
 
