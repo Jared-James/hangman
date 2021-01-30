@@ -12,5 +12,4 @@ This project was created to build a game using basic javascript.
 
 *Installation*
  - NPM install
- - NPM run start - Node
  - NPM run dev - Nodemon
