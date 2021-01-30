@@ -4,7 +4,7 @@
 
 ## 🚀 Motivation 🚀
 
-This project was created to build a game using basic javascript. 
+ - This project was created to build a game using basic javascript. 
 
 ## Built with
 
