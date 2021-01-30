@@ -17,4 +17,6 @@
 
  ---
 
- Runs on: localhost:3000
+ # Runs on: 
+ - localhost:3000
+ - nodemon
