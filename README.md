@@ -11,8 +11,9 @@
 🔨 Javascript & express 🔧
 
 *Installation*
+ - Clone Repo
  - NPM install
- - NPM run dev - Nodemon
+ - NPM RUN start - Nodemon
 
  ---
 
