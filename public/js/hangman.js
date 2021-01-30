@@ -53,7 +53,7 @@ showStatus() {
     let result = this.word.join('')
  
      if (this.status === 'playing') {
-         showStatus.textContent = `You currently have ${this.remainingGusses} gusses left`
+         showStatus.textContent = `Press a key to guess: You currently have ${this.remainingGusses} gusses left`
      } else if (this.status === 'finished') {
          showStatus.textContent = `great job you gussed the word ${result}`
      } else if (this.status === 'failed') {  
